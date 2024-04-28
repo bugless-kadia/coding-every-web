@@ -4,9 +4,16 @@
     <title>WEB - Welcome</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
+    <script src="colors.js"></script>
   </head>
   <body>
     <h1><a href="index.html">WEB</a></h1>
+    <input
+      id="night_day"
+      type="button"
+      value="night"
+      onclick="nightDayHandler(this)"
+    />
     <div id="grid">
       <ol>
         <li><a href="1.html">HTML</a></li>
@@ -31,7 +38,7 @@
           인터넷상의 정보를 하이퍼텍스트 방식과 멀티미디어 환경에서 검색할 수
           있게 해주는 정보검색 시스템이다. 하이퍼텍스트 형식으로 표현된
           인터넷상의 다양한 정보를 효과적으로 검색하는 시스템으로 전 세계적으로
-          가장 널리 보급되어 있다.[1] 하이퍼텍스트는 웹 브라우저라 불리는
+          가장 널리 보급되어 있다. 하이퍼텍스트는 웹 브라우저라 불리는
           프로그램을 통해 웹 서버에서 "문서"나 웹 페이지 등의 정보 조각을
           읽어들여 컴퓨터 모니터에 출력하는 형태로 보이게 된다. 그러고 나서
           사용자는 각 페이지에 있는 하이퍼링크를 따라 다른 문서로 이동하거나, 그
@@ -69,22 +76,30 @@
         <p>
           월드 와이드 웹에 관련된 기술은 월드 와이드 웹 컨소시엄(W3C)이 개발하고
           있다. W3C는 HTML, HTTP 등의 표준화를 진행하고 있으며, 최근에는 시맨틱
-          웹에 관련된 표준을 제정하고 있다.<br />
-          <u
-            ><a
-              href="https://ko.wikipedia.org/wiki/%EC%9B%94%EB%93%9C_%EC%99%80%EC%9D%B4%EB%93%9C_%EC%9B%B9"
-              target="_black"
-              >월드 와이드 웹 wikipedia</a
-            ></u
-          ><br />
-          <u
-            ><a
-              href="https://ko.wikipedia.org/wiki/%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8"
-              target="_black"
-              >웹사이트 wikipedia</a
-            ></u
-          >
+          웹에 관련된 표준을 제정하고 있다.
         </p>
+        <ul>
+          <li>
+            <u
+              ><a
+                class="foter-link"
+                href="https://ko.wikipedia.org/wiki/%EC%9B%94%EB%93%9C_%EC%99%80%EC%9D%B4%EB%93%9C_%EC%9B%B9"
+                target="_black"
+                >월드 와이드 웹 wikipedia</a
+              ></u
+            >
+          </li>
+          <li>
+            <u
+              ><a
+                class="foter-link"
+                href="https://ko.wikipedia.org/wiki/%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8"
+                target="_black"
+                >웹사이트 wikipedia</a
+              ></u
+            >
+          </li>
+        </ul>
       </div>
     </div>
   </body>
